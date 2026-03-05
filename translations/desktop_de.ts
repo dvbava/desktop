@@ -45,7 +45,7 @@
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="33"/>
         <source>✓ You&apos;re all set!</source>
-        <translation>✓ Du bist startklar!</translation>
+        <translation>✓ Sie sind startklar!</translation>
     </message>
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="68"/>
@@ -65,7 +65,7 @@
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="157"/>
         <source>After completing this wizard, you can set up folder synchronization manually.</source>
-        <translation>Nach der Fertigstellung dieses Assistenten kannst du die Ordnersynchronisierung manuell einrichten.</translation>
+        <translation>Nach der Fertigstellung dieses Assistenten können Sie die Ordnersynchronisierung manuell einrichten.</translation>
     </message>
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="160"/>
@@ -135,7 +135,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/main.cpp" line="127"/>
         <source>Quit the running instance.</source>
-        <translation>Beende die laufende Instanz.</translation>
+        <translation>Laufende Instanz beenden</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="129"/>
@@ -160,7 +160,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/main.cpp" line="134"/>
         <source>Enable debug mode.</source>
-        <translation>Aktiviere Debug-Modus.</translation>
+        <translation>Debug-Modus aktivieren</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="135"/>
@@ -287,7 +287,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/qml/FolderDelegate.qml" line="348"/>
         <source>Choose what to sync</source>
-        <translation>Wähle, was du synchronisieren möchtest</translation>
+        <translation>Zu synchronisierende Elemente auswählen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/FolderDelegate.qml" line="355"/>
@@ -307,7 +307,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/qml/FolderDelegate.qml" line="394"/>
         <source>You are synchronizing %1 out of %2 Spaces</source>
-        <translation>Du synchronisierst %1 von %2 Spaces</translation>
+        <translation>%1 von %2 Spaces werden synchronisiert</translation>
     </message>
 </context>
 <context>
@@ -334,7 +334,7 @@ Dateisynchronisierung Desktop-Client.</translation>
         <location filename="../src/gui/folderstatusmodel.cpp" line="119"/>
         <source>Syncing %1</source>
         <extracomment>Example text: &quot;Syncing 'foo.txt', 'bar.txt'&quot;</extracomment>
-        <translation>Synchronisiere %1</translation>
+        <translation>%1 wird synchronisiert</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="121"/>
@@ -465,7 +465,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/qml/credentials/OAuthCredentials.qml" line="32"/>
         <source>Login failed, please try it again</source>
-        <translation>Die Anmeldung ist fehlgeschlagen, bitte versuche es erneut</translation>
+        <translation>Die Anmeldung ist fehlgeschlagen, bitte versuchen Sie es erneut</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/credentials/OAuthCredentials.qml" line="51"/>
@@ -608,7 +608,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="86"/>
         <source>Sync connections</source>
-        <translation>Synchronisiere Verbindungen</translation>
+        <translation>Verbindungen synchronisieren</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="204"/>
@@ -619,7 +619,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="148"/>
         <source>Choose what to sync</source>
-        <translation>Wähle, was du synchronisieren möchtest</translation>
+        <translation>Zu synchronisierende Elemente auswählen</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="197"/>
@@ -629,7 +629,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="198"/>
         <source>&lt;p&gt;Do you really want to stop syncing the Space »%1«?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This will &lt;b&gt;not&lt;/b&gt; delete any files.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Möchtest du wirklich die Synchronisation des Spaces &lt;i&gt;&quot;%1&quot;&lt;/i&gt; abbrechen?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Dadurch werden &lt;b&gt;keine&lt;/b&gt; Dateien gelöscht.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Möchten Sie wirklich die Synchronisation des Spaces &lt;i&gt;&quot;%1&quot;&lt;/i&gt; abbrechen?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Dadurch werden &lt;b&gt;keine&lt;/b&gt; Dateien gelöscht.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="203"/>
@@ -709,7 +709,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="497"/>
         <source>&lt;p&gt;Do you really want to remove the connection to the account %1«?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This will &lt;b&gt;not&lt;/b&gt; delete any files.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Möchtest du den Zugang zum Benutzerkonto %1 wirklich entfernen?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Bei diesem Vorgang werden &lt;b&gt;keine&lt;/b&gt; Dateien gelöscht.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Möchten Sie den Zugang zum Benutzerkonto %1 wirklich entfernen?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Bei diesem Vorgang werden &lt;b&gt;keine&lt;/b&gt; Dateien gelöscht.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="501"/>
@@ -759,9 +759,9 @@ Dateisynchronisierung Desktop-Client.</translation>
         <source>An update is available for this AppImage of %1. Do you want to install this update?
 
 The update will be performed in the background, and overwrite the current AppImage file. You need to restart the app to complete the update.</source>
-        <translation>Ein Update für das AppImage von %1 ist verfügbar. Möchtest du es installieren?
+        <translation>Ein Update für das AppImage von %1 ist verfügbar. Möchten Sie es installieren?
 
-Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppImage Datei. Du musst die Anwendung neustarten, um das Update abzuschließen.</translation>
+Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppImage-Datei. Sie müssen die Anwendung neu starten, um das Update abzuschließen.</translation>
     </message>
 </context>
 <context>
@@ -792,17 +792,17 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/plugins/vfs/cfapi/vfs_cfapi.cpp" line="140"/>
         <source>The Virtual filesystem feature does not support a drive as sync root</source>
-        <translation type="unfinished"/>
+        <translation>Virtuelle Dateisysteme unterstützen kein Laufwerk als Synchronisationspunkt</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/cfapi/vfs_cfapi.cpp" line="144"/>
         <source>The Virtual filesystem feature requires a NTFS file system, %1 is using %2</source>
-        <translation type="unfinished"/>
+        <translation>Virtuelle Dateisysteme benötigen ein NTFS-Dateisystem, %1 verwendet %2</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/cfapi/vfs_cfapi.cpp" line="148"/>
         <source>The Virtual filesystem feature is not supported on network drives</source>
-        <translation type="unfinished"/>
+        <translation>Virtuelle Dateisysteme werden auf Netzwerk-Laufwerken nicht unterstützt</translation>
     </message>
 </context>
 <context>
@@ -1138,7 +1138,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/folderman.cpp" line="610"/>
         <source>You have no permission to write to the selected folder!</source>
-        <translation>Du hast keine Berechtigung, um in diesen Ordner zu schreiben!</translation>
+        <translation>Sie haben für den ausgewählten Ordner keine Schreibberechtigung.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="636"/>
@@ -1255,7 +1255,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="80"/>
         <source>Start on Login</source>
-        <translation>Starte beim Anmelden</translation>
+        <translation>Bei Anmeldung starten</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="52"/>
@@ -1270,7 +1270,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="98"/>
         <source>Sync hidden files</source>
-        <translation>Synchronisiere versteckte Dateien</translation>
+        <translation>Versteckte Dateien synchronisieren</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="111"/>
@@ -1310,7 +1310,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.cpp" line="145"/>
         <source>You cannot disable autostart because system-wide autostart is enabled.</source>
-        <translation>Du kannst den Autostart nicht deaktivieren, das der systemweite Autostart aktiviert ist.</translation>
+        <translation>Sie können den Autostart nicht deaktivieren, da dieser systemweit aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.cpp" line="53"/>
@@ -1330,7 +1330,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.cpp" line="162"/>
         <source>(use default)</source>
-        <translation>(benutze Standard)</translation>
+        <translation>(Standard verwenden)</translation>
     </message>
 </context>
 <context>
@@ -1582,7 +1582,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/networksettings.ui" line="49"/>
         <source>Use system proxy</source>
-        <translation>Nutze System-Proxy</translation>
+        <translation>System-Proxy verwenden</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.ui" line="114"/>
@@ -1758,7 +1758,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="382"/>
         <source>&lt;h1&gt;Incorrect user&lt;/h1&gt;&lt;p&gt;You logged-in as user &lt;em&gt;%1&lt;/em&gt;, but must login with user &lt;em&gt;%2&lt;/em&gt;.&lt;br&gt;Please return to the %3 and restart the authentication.&lt;/p&gt;</source>
-        <translation>&lt;h1&gt;Falscher Benutzer&lt;/h1&gt;&lt;p&gt;Du bist als Benutzer &lt;em&gt;%1&lt;/em&gt; angemeldet, du musst dich aber als Benutzer &lt;em&gt;%2&lt;/em&gt; anmelden.&lt;br&gt;Bitte kehre zu %3 zurück und starte die Authentifizierung erneut.&lt;/p&gt;</translation>
+        <translation>&lt;h1&gt;Falscher Benutzer&lt;/h1&gt;&lt;p&gt;Sie sind als Benutzer &lt;em&gt;%1&lt;/em&gt; angemeldet. Sie müssen sich aber als Benutzer &lt;em&gt;%2&lt;/em&gt; anmelden.&lt;br&gt;Bitte kehren Sie zu %3 zurück und starten Sie die Authentifizierung erneut.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="387"/>
@@ -2380,7 +2380,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/selectivesyncwidget.cpp" line="75"/>
         <source>Deselect remote folders you do not wish to synchronize.</source>
-        <translation>Hebe die Markierung von Remote-Ordnern auf, die nicht synchronisiert werden sollen.</translation>
+        <translation>Heben Sie die Markierung von Remote-Ordnern auf, die nicht synchronisiert werden sollen.</translation>
     </message>
     <message>
         <location filename="../src/gui/selectivesyncwidget.cpp" line="89"/>
@@ -2453,12 +2453,12 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="606"/>
         <source>Do you want to delete the file »%1« permanently?</source>
-        <translation>Möchtest du die Datei %1 dauerhaft löschen?</translation>
+        <translation>Möchten Sie die Datei %1 dauerhaft löschen?</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="648"/>
         <source>Select new location...</source>
-        <translation>Wähle neuen Ort...</translation>
+        <translation>Neuen Ort auswählen...</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="658"/>
@@ -2489,12 +2489,12 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
         <location filename="../src/gui/socketapi/socketapi.cpp" line="777"/>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="809"/>
         <source>Copy private link to clipboard</source>
-        <translation>Kopiere privaten Link in Zwischenablage</translation>
+        <translation>Privaten Link in Zwischenablage kopieren</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="778"/>
         <source>Send private link by email...</source>
-        <translation>Sende privaten Link via E-Mail...</translation>
+        <translation>Privaten Link via E-Mail senden...</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="803"/>
@@ -2509,12 +2509,12 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="874"/>
         <source>Open in %1</source>
-        <translation>Öffne in %1</translation>
+        <translation>In %1 öffnen</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="885"/>
         <source>Show file versions in web browser</source>
-        <translation>Zeige Dateiversionen im Web-Browser</translation>
+        <translation>Dateiversionen im Web-Browser zeigen</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="907"/>
@@ -2524,7 +2524,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="910"/>
         <source>Rename and upload...</source>
-        <translation>Umbenennen und hochladen</translation>
+        <translation>Umbenennen und hochladen...</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="915"/>
@@ -2540,7 +2540,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="925"/>
         <source>Delete local changes</source>
-        <translation>Lösche lokale Änderungen</translation>
+        <translation>Lokale Änderungen löschen</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="930"/>
@@ -2711,7 +2711,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/tlserrordialog.ui" line="42"/>
         <source>Do you want to trust this certificate anyway?</source>
-        <translation>Möchtest du dem Zertifikat trotzdem vertrauen?</translation>
+        <translation>Möchten Sie dem Zertifikat trotzdem vertrauen?</translation>
     </message>
     <message>
         <location filename="../src/gui/tlserrordialog.cpp" line="28"/>
@@ -2753,7 +2753,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
         <location filename="../src/gui/updatenotifier.cpp" line="48"/>
         <source>A new version %1 is available. You are using version %2.</source>
         <comment>The first placeholder is the new version, the second one the current version</comment>
-        <translation>Eine neue Version %1 ist verfügbar. Du benutzt Version %2.</translation>
+        <translation>Eine neue Version %1 ist verfügbar. Sie verwenden Version %2.</translation>
     </message>
     <message>
         <location filename="../src/gui/updatenotifier.cpp" line="53"/>
@@ -2771,7 +2771,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/updateurldialog.cpp" line="33"/>
         <source>The URL for &lt;b&gt;%1&lt;/b&gt; changed from:&lt;br&gt;&lt;b&gt;%2&lt;/b&gt; to:&lt;br&gt; &lt;b&gt;%3&lt;/b&gt;.&lt;br&gt;&lt;br&gt;Do you want to accept the new URL permanently?&lt;br&gt;This will cause an application restart.</source>
-        <translation>Die URL für &lt;b&gt;%1&lt;/b&gt; hat sich geändert von:&lt;br&gt;&lt;b&gt;%2&lt;/b&gt; nach:&lt;br&gt;&lt;b&gt;%3&lt;/b&gt;.&lt;br&gt;&lt;br&gt; Möchtest du die neue URL dauerhaft übernehmen?&lt;br&gt; Dies führt zu einem Neustart der Anwendung.</translation>
+        <translation>Die URL für &lt;b&gt;%1&lt;/b&gt; hat sich geändert von:&lt;br&gt;&lt;b&gt;%2&lt;/b&gt; nach:&lt;br&gt;&lt;b&gt;%3&lt;/b&gt;.&lt;br&gt;&lt;br&gt; Möchten Sie die neue URL dauerhaft übernehmen?&lt;br&gt; Dies führt zu einem Neustart der Anwendung.</translation>
     </message>
 </context>
 <context>
@@ -2808,7 +2808,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="422"/>
         <source>Skip this version</source>
-        <translation>Überspringe diese Version</translation>
+        <translation>Diese Version überspringen</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="403"/>
@@ -2828,7 +2828,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="423"/>
         <source>Ask again later</source>
-        <translation>Frage später nochmal</translation>
+        <translation>Später erneut fragen</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="424"/>
@@ -2838,7 +2838,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="425"/>
         <source>Update manually</source>
-        <translation>Aktualisiere manuell</translation>
+        <translation>Manuell aktualisieren</translation>
     </message>
 </context>
 <context>
@@ -2846,12 +2846,12 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.cpp" line="33"/>
         <source>Select the local folder</source>
-        <translation>Wähle den lokalen Ordner</translation>
+        <translation>Lokalen Ordner auswählen</translation>
     </message>
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.cpp" line="43"/>
         <source>Sync location not supported</source>
-        <translation>Synchronisation Pfad wird nicht unterstützt</translation>
+        <translation>Synchronisationspfad wird nicht unterstützt</translation>
     </message>
 </context>
 <context>
@@ -3353,12 +3353,12 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/libsync/vfs/vfs.cpp" line="240"/>
         <source>ReFS is currently not supported.</source>
-        <translation type="unfinished"/>
+        <translation>ReFS wird momentan nicht unterstützt.</translation>
     </message>
     <message>
         <location filename="../src/libsync/vfs/vfs.cpp" line="248"/>
         <source>The Virtual filesystem %1 is not supported on this platform</source>
-        <translation type="unfinished"/>
+        <translation>Das virtuelle Dateisystem %1 wird auf dieser Plattform nicht unterstützt</translation>
     </message>
 </context>
 <context>

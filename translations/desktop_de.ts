@@ -130,7 +130,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/main.cpp" line="125"/>
         <source>Start with the main window visible, or if it is already running, bring it to the front. By default, the client launches in the background.</source>
-        <translation>Beginne mit dem sichtbaren Hauptfenster, oder wenn es bereits läuft, hole es in den Vordergrund. Standardmäßig startet der Client im Hintergrund.</translation>
+        <translation>Mit sichtbarem Hauptfenster starten bzw. dieses in den Vordergrund holen, wenn der Client bereits läuft. Standardmäßig startet der Client im Hintergrund.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="127"/>
@@ -140,22 +140,22 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/main.cpp" line="129"/>
         <source>Write log to file (use - to write to stdout).</source>
-        <translation>Schreibe den Log in eine Datei (nutze - um nach stdout zu schreiben).</translation>
+        <translation>Protokoll in Datei schreiben (- verwenden, um nach stdout zu schreiben).</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="131"/>
         <source>Write each sync log output in a new file in folder.</source>
-        <translation>Schreibe jeden Synchronisationslog in eine neue Datei im Ordner.</translation>
+        <translation>Jedes Synchronisationsprotokoll in eine neue Datei im Ordner schreiben.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="132"/>
         <source>Flush the log file after every write.</source>
-        <translation>Leere Caches der Log-Datei nach jedem Schreiben.</translation>
+        <translation>Caches der Protokolldatei nach jedem Schreiben leeren.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="133"/>
         <source>Output debug-level messages in the log.</source>
-        <translation>Gebe Debug-Meldungen im Log aus.</translation>
+        <translation>Debug-Meldungen im Protokoll ausgeben.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="134"/>
@@ -178,7 +178,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/qml/credentials/Credentials.qml" line="47"/>
         <source>Stay logged out</source>
-        <translation>Bleibe abgemeldet</translation>
+        <translation>Abgemeldet bleiben</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/credentials/Credentials.qml" line="85"/>
@@ -475,7 +475,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/qml/credentials/OAuthCredentials.qml" line="51"/>
         <source>Open web browser</source>
-        <translation>Öffne Browser</translation>
+        <translation>Browser öffnen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/credentials/OAuthCredentials.qml" line="67"/>
@@ -1280,7 +1280,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="118"/>
         <source>Move remotely deleted files to the local trash bin instead of deleting them</source>
-        <translation>Verschiebe entfernt gelöschte Dateien in den lokalen Mülleimer, anstatt sie zu löschen.</translation>
+        <translation>Entfernt gelöschte Dateien in den lokalen Mülleimer verschieben, anstatt sie zu löschen.</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="127"/>
@@ -1290,7 +1290,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="134"/>
         <source>Log Settings</source>
-        <translation>Einstelllungen für Logging</translation>
+        <translation>Protokolleinstellungen</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="161"/>
@@ -1397,7 +1397,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/ignorelisteditor.ui" line="46"/>
         <source>Allow Deletion</source>
-        <translation>Erlaube Löschen</translation>
+        <translation>Löschen erlauben</translation>
     </message>
     <message>
         <location filename="../src/gui/ignorelisteditor.ui" line="69"/>
@@ -1482,7 +1482,7 @@ Elemente, bei denen das Löschen erlaubt ist, werden gelöscht, wenn sie verhind
     <message>
         <location filename="../src/gui/logbrowser.ui" line="14"/>
         <source>Log Output</source>
-        <translation>Log-Ausgabe</translation>
+        <translation>Protokollausgabe</translation>
     </message>
     <message>
         <location filename="../src/gui/logbrowser.ui" line="53"/>
@@ -1499,12 +1499,12 @@ Da die Protokolldateien sehr groß werden können, legt der Client für jeden Sy
     <message>
         <location filename="../src/gui/logbrowser.ui" line="116"/>
         <source>Enable logging to temporary folder</source>
-        <translation>Einschalten von Logging in einen temporären Ordner</translation>
+        <translation>Protokollierung in einen temporären Ordner aktivieren</translation>
     </message>
     <message>
         <location filename="../src/gui/logbrowser.ui" line="84"/>
         <source>If enabled, logs will be written to:</source>
-        <translation>Logs werden - wenn eingeschaltet - geschrieben nach:</translation>
+        <translation>Protokolle werden - wenn aktiviert - geschrieben nach:</translation>
     </message>
     <message>
         <location filename="../src/gui/logbrowser.ui" line="91"/>
@@ -1514,24 +1514,24 @@ Da die Protokolldateien sehr groß werden können, legt der Client für jeden Sy
     <message>
         <location filename="../src/gui/logbrowser.ui" line="123"/>
         <source>Log Http traffic </source>
-        <translation>HTTP Datenverkehr loggen</translation>
+        <translation>HTTP-Datenverkehr protokollieren</translation>
     </message>
     <message>
         <location filename="../src/gui/logbrowser.ui" line="132"/>
         <source>Log files to keep:</source>
-        <translation>Zu behaltende Logfiles:</translation>
+        <translation>Zu behaltende Protokolldateien:</translation>
     </message>
     <message>
         <location filename="../src/gui/logbrowser.ui" line="167"/>
         <source>These settings persist across client restarts.
 Note that using any logging command line options will override the settings.</source>
         <translation>Diese Einstellungen bleiben nach einem Neustart des Clients erhalten.
-Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen überschreiben.</translation>
+Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese Einstellungen überschreiben.</translation>
     </message>
     <message>
         <location filename="../src/gui/logbrowser.ui" line="178"/>
         <source>Open folder</source>
-        <translation>Öffne Ordner</translation>
+        <translation>Ordner öffnen</translation>
     </message>
 </context>
 <context>
@@ -2569,7 +2569,7 @@ Beachten Sie, dass Kommandozeilenoptionen zum Logging diese Einstellungen übers
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="354"/>
         <source>Unable to open or create the local sync database. Make sure you have write access in the sync folder.</source>
-        <translation>Die lokale Sync-Datenbank kann nicht geöffnet oder erstellt werden. Stell sicher, dass Schreibzugriff auf den Sync-Ordner vorliegt.</translation>
+        <translation>Die lokale Synchronisationsdatenbank kann nicht geöffnet oder erstellt werden. Stellen Sie sicher, dass Schreibzugriff auf den Synchronisationsordner vorliegt.</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="770"/>

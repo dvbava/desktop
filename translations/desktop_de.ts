@@ -50,12 +50,12 @@
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="68"/>
         <source>Advanced configuration</source>
-        <translation>Erweiterte Konfiguration</translation>
+        <translation>Erweiterte Einstellungen</translation>
     </message>
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="140"/>
         <source>Configure files download:</source>
-        <translation>Konfiguriere Datei-Download:</translation>
+        <translation>Datei-Download einrichten:</translation>
     </message>
     <message>
         <location filename="../src/gui/newwizard/pages/accountconfiguredwizardpage.ui" line="147"/>
@@ -119,7 +119,7 @@
         <source>%1 version %2<byte value="xd"/>
 File synchronization desktop utility.</source>
         <translation>%1 Version %2&lt;byte value=&quot;xd&quot;/&gt;
-Dateisynchronisierung Desktop-Client.</translation>
+Desktop-Client zur Dateisynchronisierung.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="106"/>
@@ -135,7 +135,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/main.cpp" line="127"/>
         <source>Quit the running instance.</source>
-        <translation>Laufende Instanz beenden</translation>
+        <translation>Laufende Instanz beenden.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="129"/>
@@ -160,12 +160,12 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/main.cpp" line="134"/>
         <source>Enable debug mode.</source>
-        <translation>Debug-Modus aktivieren</translation>
+        <translation>Debug-Modus aktivieren.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="135"/>
         <source>Forward all arguments to the cmd client. This argument must be the first.</source>
-        <translation>Übergebe alle Argumente an den CMD-Client. Dieses Argument muss als erstes angegeben werden.</translation>
+        <translation>Alle Argumente an den Kommandozeilen-Client übergeben. Dieses Argument muss als erstes angegeben werden.</translation>
     </message>
     <message>
         <location filename="../src/gui/main.cpp" line="151"/>
@@ -184,14 +184,14 @@ Dateisynchronisierung Desktop-Client.</translation>
         <location filename="../src/gui/qml/credentials/Credentials.qml" line="85"/>
         <source>Connecting %1 to:
 %2</source>
-        <translation>Verbinde %1 mit:
+        <translation>%1 wird verbunden mit:
 %2</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/credentials/Credentials.qml" line="85"/>
         <source>Connecting to:
 %1</source>
-        <translation>Verbinde mit:
+        <translation>Verbinden mit:
 %1</translation>
     </message>
 </context>
@@ -262,7 +262,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/qml/FolderDelegate.qml" line="99"/>
         <source>Account options Menu</source>
-        <translation>Konto-Optionen Menü</translation>
+        <translation>Kontoeinstellungen-Menü</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/FolderDelegate.qml" line="332"/>
@@ -409,22 +409,22 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/folderwizard/folderwizardsourcepage.ui" line="20"/>
         <source>Select a local folder to synchronize your Spaces to:</source>
-        <translation>Wähle einen lokalen Ordner aus, mit dem Ihre Spaces synchronisiert werden sollen:</translation>
+        <translation>Einen lokalen Ordner auswählen, mit dem Ihre Spaces synchronisiert werden sollen:</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard/folderwizardsourcepage.ui" line="32"/>
         <source>Enter the path to the Spaces root folder. This folder will contain all your synchronized Spaces.</source>
-        <translation>Gebe den Pfad zum Stammordner der Spaces ein. Dieser Ordner wird alle synchronisierten Spaces enthalten.</translation>
+        <translation>Pfad zum Stammordner der Spaces eingeben. Dieser wird alle synchronisierten Spaces enthalten.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard/folderwizardsourcepage.ui" line="39"/>
         <source>Click to select the Spaces root folder.</source>
-        <translation>Klicke, um den Stammordner der Spaces auszuwählen.</translation>
+        <translation>Klicken, um den Stammordner der Spaces auszuwählen.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizard/folderwizardsourcepage.ui" line="42"/>
         <source>&amp;Choose...</source>
-        <translation>&amp;Wähle...</translation>
+        <translation>&amp;Auswählen...</translation>
     </message>
 </context>
 <context>
@@ -541,7 +541,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/aboutdialog.cpp" line="165"/>
         <source>&lt;li&gt;&quot;beta&quot; may contain newer features and bugfixes, but have not yet been tested thoroughly&lt;/li&gt;</source>
-        <translation>&lt;li&gt;&quot;beta&quot; kann neuere Features und Problembehebungen enthalten, die aber noch nicht vollständig getestet wurden&lt;/li&gt;</translation>
+        <translation>&lt;li&gt;&quot;Beta&quot; kann neuere Features und Problembehebungen enthalten, die aber noch nicht vollständig getestet wurden&lt;/li&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/aboutdialog.cpp" line="167"/>
@@ -659,12 +659,12 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="273"/>
         <source>Synchronization is paused because the Internet connection is a metered connection&lt;p&gt;Do you really want to force a Synchronization now?</source>
-        <translation>Synchronisierung wird pausiert, weil die Internetverbindung getaktet ist&lt;p&gt;Soll die sofortige Fortsetzung der Synchronisierung wirklich erzwungen werden?</translation>
+        <translation>Synchronisierung wird pausiert, weil die Internetverbindung getaktet ist.&lt;p&gt;Soll die sofortige Fortsetzung der Synchronisierung wirklich erzwungen werden?</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="296"/>
         <source>User triggered force sync</source>
-        <translation>Benutzer hat eine erzwungene Synchronisierung ausgelöst</translation>
+        <translation>Benutzer hat eine Synchronisierung erzwungen</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="320"/>
@@ -719,7 +719,7 @@ Dateisynchronisierung Desktop-Client.</translation>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="352"/>
         <source>The server version %1 is unsupported! Proceed at your own risk.</source>
-        <translation>Die Serverversion %1 ist nicht unterstützt! Fortfahren erfolgt auf eigene Gefahr.</translation>
+        <translation>Die Server-Version %1 wird nicht unterstützt. Fortfahren erfolgt auf eigene Gefahr.</translation>
     </message>
 </context>
 <context>
@@ -774,12 +774,12 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/gui/application.cpp" line="188"/>
         <source>Unsupported Server Version</source>
-        <translation>Nicht unterstütze Server Version</translation>
+        <translation>Nicht unterstützte Server-Version</translation>
     </message>
     <message>
         <location filename="../src/gui/application.cpp" line="189"/>
         <source>The server on account »%1« runs an unsupported version %2. Using this client with unsupported server versions is untested and potentially dangerous. Proceed at your own risk.</source>
-        <translation>Der Server von Account %1 läuft mit der nicht unterstützten Version %2. Die Verwendung dieses Clienten mit einer nicht unterstützen Serverversion ist nicht getestet und potentiell gefährlich. Fortfahren auf eigene Gefahr.</translation>
+        <translation>Der Server von Konto %1 läuft mit der nicht unterstützten Version %2. Die Verwendung dieses Clients mit einer nicht unterstützen Server-Version ist nicht getestet und potentiell gefährlich. Fortfahren auf eigene Gefahr.</translation>
     </message>
     <message>
         <location filename="../src/gui/application.cpp" line="214"/>
@@ -815,12 +815,12 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/gui/commonstrings.cpp" line="34"/>
         <source>Show in %1</source>
-        <translation>Zeige in %1</translation>
+        <translation>In %1 anzeigen</translation>
     </message>
     <message>
         <location filename="../src/gui/commonstrings.cpp" line="36"/>
         <source>Show »%1« in %2</source>
-        <translation>Zeige &quot;%1&quot; in %2</translation>
+        <translation>&quot;%1&quot; in %2 anzeigen</translation>
     </message>
     <message>
         <location filename="../src/gui/commonstrings.cpp" line="41"/>
@@ -873,7 +873,7 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/libsync/discoveryphase.cpp" line="215"/>
         <source>Directory not accessible on client, permission denied</source>
-        <translation>Das Verzeichnis ist nicht zugänglich vom Client, Zugriff verweigert</translation>
+        <translation>Das Verzeichnis ist dem Client nicht zugänglich, Zugriff verweigert</translation>
     </message>
     <message>
         <location filename="../src/libsync/discoveryphase.cpp" line="219"/>
@@ -894,7 +894,7 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/gui/folder.cpp" line="148"/>
         <source>The path »%1« is too long. Please enable long paths in the Windows settings or choose a different folder.</source>
-        <translation>Der Pfad &apos;%1&apos; ist zu lang. Bitte aktiviere lange Pfade in den Windows-Einstellungen oder wähle einen anderen Ordner.</translation>
+        <translation>Der Pfad &apos;%1&apos; ist zu lang. Bitte aktivieren Sie lange Pfade in den Windows-Einstellungen oder wählen Sie einen anderen Ordner.</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="193"/>
@@ -983,17 +983,17 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/gui/folder.cpp" line="499"/>
         <source>»%1« has a sync conflict. Please check the conflict file!</source>
-        <translation>%1 hat einen Synchronisationskonflikt. Bitte überprüfe die Konfliktsdatei.</translation>
+        <translation>%1 hat einen Synchronisationskonflikt. Bitte überprüfen Sie die Konfliktdatei.</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="504"/>
         <source>»%1« and %n other file(s) could not be synced due to errors. See the log for details.</source>
-        <translation><numerusform>%1 und %n andere Datei konnten aufgrund von Fehlern nicht synchronisiert werden. Für Details sieh im Log nach.</numerusform><numerusform>%1 und %n andere Dateien konnten aufgrund von Fehlern nicht synchronisiert werden. Details sind im Log verfügbar.</numerusform></translation>
+        <translation><numerusform>%1 und %n andere Datei konnten aufgrund von Fehlern nicht synchronisiert werden. Für Details sieh im Log nach.</numerusform><numerusform>%1 und %n andere Dateien konnten aufgrund von Fehlern nicht synchronisiert werden. Details sind im Protokoll verfügbar.</numerusform></translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="506"/>
         <source>»%1« could not be synced due to an error. See the log for details.</source>
-        <translation>%1 konnte aufgrund eines Fehlers nicht synchronisiert werden. Details sind im Log verfügbar.</translation>
+        <translation>%1 konnte aufgrund eines Fehlers nicht synchronisiert werden. Details sind im Protokoll verfügbar.</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="512"/>
@@ -1008,12 +1008,12 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
     <message>
         <location filename="../src/gui/folder.cpp" line="1054"/>
         <source>The folder »%1« was created but was excluded from synchronization previously. Data inside it will not be synchronized.</source>
-        <translation>Der Ordner %1 wurde erstellt, aber zuvor von der Synchronisation ausgeschlossen. Dateien in dem Ordner werden nicht synchronisiert.</translation>
+        <translation>Der Ordner %1 wurde erstellt, aber zuvor von der Synchronisation ausgeschlossen. Dateien in diesem Ordner werden nicht synchronisiert.</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="1057"/>
         <source>The file »%1« was created but was excluded from synchronization previously. It will not be synchronized.</source>
-        <translation>Die Datei %1 wurde erstellt aber zuvor von der Synchronisation ausgeschlossen. Die Datei wird nicht synchronisiert.</translation>
+        <translation>Die Datei %1 wurde erstellt, aber zuvor von der Synchronisation ausgeschlossen. Die Datei wird nicht synchronisiert.</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="1061"/>
@@ -1032,7 +1032,7 @@ Das Update wird im Hintergrund ausgeführt und überschreibt die aktuelle AppIma
 This means that the synchronization client might not upload local changes immediately and will instead only scan for local changes and upload them occasionally (every two hours by default).
 
 %1</source>
-        <translation>Veränderungen in synchronisierten Ordnern konnten nicht zuverlässig verfoglt werden.
+        <translation>Veränderungen in synchronisierten Ordnern konnten nicht zuverlässig verfolgt werden.
 
 Das bedeutet, dass der Synchronisations-Client möglicherweise lokale Veränderungen nicht sofort hochlädt, sondern stattdessen nach lokalen Veränderungen scannt und diese nur gelegentlich hochlädt (standardmäßig alle zwei Stunden).
 
@@ -1084,7 +1084,7 @@ Das bedeutet, dass der Synchronisations-Client möglicherweise lokale Veränderu
     <message>
         <location filename="../src/gui/folderman.cpp" line="550"/>
         <source>The folder »%1« is already in use by application %2!</source>
-        <translation>Der Ordner %1 wird bereits von Anwendung %2 verwendet!</translation>
+        <translation>Der Ordner %1 wird bereits von Anwendung %2 verwendet.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="563"/>
@@ -1094,46 +1094,46 @@ Das bedeutet, dass der Synchronisations-Client möglicherweise lokale Veränderu
     <message>
         <location filename="../src/gui/folderman.cpp" line="639"/>
         <source>The local folder »%1« already contains a folder used in a folder sync connection. Please pick another local folder!</source>
-        <translation>Der lokale Ordner %1 enthält bereits einen Ordner, der zur Synchronisation verwendet wird. Bitte wähle einen anderen lokalen Ordner.</translation>
+        <translation>Der lokale Ordner %1 enthält bereits einen Ordner, der zur Synchronisation verwendet wird. Bitte wählen Sie einen anderen lokalen Ordner.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="645"/>
         <source>The local folder »%1« is already contained in a folder used in a folder sync connection. Please pick another local folder!</source>
-        <translation>Der lokale Ordner %1 befindet sich bereits in einem Ordner, der zur Synchronisation verwendet wird. Bitte wähle einen anderen lokalen Ordner.</translation>
+        <translation>Der lokale Ordner %1 befindet sich bereits in einem Ordner, der zur Synchronisation verwendet wird. Bitte wählen Sie einen anderen lokalen Ordner.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="653"/>
         <source>Please pick another local folder for »%1«.</source>
-        <translation>Bitte wähle einen anderen lokalen Ordner für %1!</translation>
+        <translation>Bitte wählen Sie einen anderen lokalen Ordner für %1.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="716"/>
         <source>Multiple accounts are sharing the folder »%1«.
 This configuration is know to lead to dataloss and is no longer supported.
 Please consider removing this folder from the account and adding it again.</source>
-        <translation>Mehrere Accounts teilen den Ordner %1.
+        <translation>Mehrere Konten teilen sich den Ordner %1.
 Diese Konfiguration führt zu Datenverlust und wird nicht mehr unterstützt.
-Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
+Bitte entfernen Sie diesen Ordner aus dem Konto und legen Sie ihn erneut an.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="578"/>
         <source>No valid folder selected!</source>
-        <translation>Kein gültiger Ordner gewählt!</translation>
+        <translation>Kein gültiger Ordner gewählt.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="596"/>
         <source>The selected path does not exist!</source>
-        <translation>Der ausgewählte Pfad existiert nicht!</translation>
+        <translation>Der ausgewählte Pfad existiert nicht.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="600"/>
         <source>The folder »%1« is used in a folder sync connection!</source>
-        <translation>Der Ordner %1 wird bereits als Synchronisationsordner benutzt!</translation>
+        <translation>Der Ordner %1 wird bereits als Synchronisationsordner verwendet.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="606"/>
         <source>The selected path is not a folder!</source>
-        <translation>Der ausgewählte Pfad ist kein Ordner!</translation>
+        <translation>Der ausgewählte Pfad ist kein Ordner.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="610"/>
@@ -1143,7 +1143,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/folderman.cpp" line="636"/>
         <source>There is already a sync from the server to this local folder. Please pick another local folder!</source>
-        <translation>Es existiert bereits eine Synchronisierung vom Server mit diesem lokalen Ordner. Bitte wähle einen anderen lokalen Ordner!</translation>
+        <translation>Es existiert bereits eine Synchronisierung vom Server mit diesem lokalen Ordner. Bitte wähle einen anderen lokalen Ordner.</translation>
     </message>
 </context>
 <context>
@@ -1156,7 +1156,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="303"/>
         <source>%1 of %2 used</source>
-        <translation>%1 von %2 benutzt</translation>
+        <translation>%1 von %2 verwendet</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="386"/>
@@ -1166,7 +1166,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="388"/>
         <source>Checking for changes in local »%1«</source>
-        <translation>Überprüfe Änderungen an lokalem »%1«</translation>
+        <translation>Änderungen an lokalem »%1« werden geprüft</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusmodel.cpp" line="392"/>
@@ -1192,7 +1192,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/folderwatcher_linux.cpp" line="81"/>
         <source>This problem usually happens when the inotify watches are exhausted. Check the FAQ for details.</source>
-        <translation>Dieses Problem tritt in der üblicherweise auf, wenn die inotify-Watcher aufgebraucht sind.</translation>
+        <translation>Dieses Problem tritt üblicherweise auf, wenn die inotify-Watcher aufgebraucht sind. Für Details konsultieren Sie die FAQ.</translation>
     </message>
 </context>
 <context>
@@ -1209,7 +1209,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/folderwizard/folderwizardlocalpath.cpp" line="103"/>
         <source>Select the Spaces root folder</source>
-        <translation>Wähle den Spaces-Ordner</translation>
+        <translation>Spaces-Ordner auswählen</translation>
     </message>
 </context>
 <context>
@@ -1222,7 +1222,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/libsync/networkjobs/getfilejob.cpp" line="122"/>
         <source>No E-Tag received from server, check Proxy/Gateway</source>
-        <translation>Kein E-Tag vom Server empfangen, überprüfe Proxy/Gateway</translation>
+        <translation>Kein E-Tag vom Server empfangen, Proxy/Gateway überprüfen</translation>
     </message>
     <message>
         <location filename="../src/libsync/networkjobs/getfilejob.cpp" line="128"/>
@@ -1285,7 +1285,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="127"/>
         <source>Edit Ignored Files</source>
-        <translation>Bearbeite ignorierte Dateien</translation>
+        <translation>Ignorierte Dateien bearbeiten</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.ui" line="134"/>
@@ -1320,7 +1320,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/gui/generalsettings.cpp" line="53"/>
         <source>Language changes require a restart of this application to take effect.</source>
-        <translation>Sprachänderungen erfordern einen Neustart der Applikation um wirksam zu werden.</translation>
+        <translation>Sprachänderungen erfordern einen Neustart der Applikation, um wirksam zu werden.</translation>
     </message>
     <message>
         <location filename="../src/gui/generalsettings.cpp" line="178"/>
@@ -1359,7 +1359,7 @@ Bitte entferne diesen Ordner vom Account und lege ihn erneut an.</translation>
     <message>
         <location filename="../src/libsync/vfs/hydrationjob.cpp" line="37"/>
         <source>Failed to find fileId: %1 in db</source>
-        <translation>Konnte Datei-ID nicht finden: %1 in Datenbank</translation>
+        <translation>Datei-ID konnte nicht gefunden werden: %1 in Datenbank</translation>
     </message>
     <message>
         <location filename="../src/libsync/vfs/hydrationjob.cpp" line="59"/>
@@ -1416,7 +1416,7 @@ Elemente, bei denen das Löschen erlaubt ist, werden gelöscht, wenn sie verhind
     <message>
         <location filename="../src/gui/ignorelisteditor.cpp" line="110"/>
         <source>Could not open file</source>
-        <translation>Konnte Datei nicht öffnen</translation>
+        <translation>Datei konnte nicht geöffnet werden</translation>
     </message>
     <message>
         <location filename="../src/gui/ignorelisteditor.cpp" line="41"/>
@@ -1549,7 +1549,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/issueswidget.cpp" line="288"/>
         <source>Reset Filters</source>
-        <translation>Setze Filter zurück</translation>
+        <translation>Filter zurücksetzen</translation>
     </message>
     <message>
         <location filename="../src/gui/issueswidget.cpp" line="373"/>
@@ -1602,17 +1602,17 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/networksettings.ui" line="153"/>
         <source>Proxy Port Number</source>
-        <translation>Proxy Port Nummer</translation>
+        <translation>Proxy-Portnummer</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.ui" line="174"/>
         <source>Proxy server requires authentication</source>
-        <translation>Proxy Server erfordert Authentifizierung</translation>
+        <translation>Proxy-Server erfordert Authentifizierung</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.ui" line="219"/>
         <source>Note: proxy settings have no effects for accounts on localhost</source>
-        <translation>Beachte: Proxy Einstellungen haben keinen Effekt bei Konten auf localhost</translation>
+        <translation>Hinweis: Proxy-Einstellungen haben keinen Effekt bei Konten auf localhost</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.ui" line="240"/>
@@ -1684,23 +1684,23 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
         <location filename="../src/gui/networksettings.cpp" line="51"/>
         <location filename="../src/gui/networksettings.cpp" line="52"/>
         <source>Username for proxy server</source>
-        <translation>Benutzername für Proxy Server</translation>
+        <translation>Benutzername für Proxy-Server</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.cpp" line="53"/>
         <location filename="../src/gui/networksettings.cpp" line="54"/>
         <source>Password for proxy server</source>
-        <translation>Passwort für Proxy Server</translation>
+        <translation>Passwort für Proxy-Server</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.cpp" line="56"/>
         <source>HTTP(S) proxy</source>
-        <translation>HTTP(S) proxy</translation>
+        <translation>HTTP(S)-Proxy</translation>
     </message>
     <message>
         <location filename="../src/gui/networksettings.cpp" line="57"/>
         <source>SOCKS5 proxy</source>
-        <translation>SOCKS5 proxy</translation>
+        <translation>SOCKS5-Proxy</translation>
     </message>
 </context>
 <context>
@@ -1708,7 +1708,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/updater/newversionavailablewidget.cpp" line="33"/>
         <source>Skip this version</source>
-        <translation>Überspringe diese Version</translation>
+        <translation>Diese Version überspringen</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/newversionavailablewidget.cpp" line="34"/>
@@ -1718,7 +1718,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/updater/newversionavailablewidget.cpp" line="35"/>
         <source>Skip this time</source>
-        <translation>Überspringe dieses Mal</translation>
+        <translation>Dieses Mal überspringen</translation>
     </message>
 </context>
 <context>
@@ -1726,7 +1726,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="361"/>
         <source>Error returned from the server: &lt;em&gt;%1&lt;/em&gt;</source>
-        <translation>Fehler vom Server zurück gekommen: &lt;em&gt;%1&lt;/em&gt;</translation>
+        <translation>Vom Server zurückgemeldeter Fehler: &lt;em&gt;%1&lt;/em&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="363"/>
@@ -1763,7 +1763,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="387"/>
         <source>&lt;h1&gt;Incorrect user&lt;/h1&gt;&lt;p&gt;You logged-in as a different user than is associated with this account.&lt;br&gt;Please return to the %1 and restart the authentication.&lt;/p&gt;</source>
-        <translation>&lt;h1&gt;Falscher Benutzer&lt;/h1&gt;&lt;p&gt;Du bist als ein Benutzer eingeloggt, der nicht mit diesem Account assoziiert wird.&lt;br&gt;Bitte kehre zu %1 zurück und starte die Authentifizierung erneut.&lt;/p&gt;</translation>
+        <translation>&lt;h1&gt;Falscher Benutzer&lt;/h1&gt;&lt;p&gt;Sie sind als ein Benutzer eingeloggt, der nicht mit diesem Account assoziiert wird.&lt;br&gt;Bitte kehren Sie zu %1 zurück und starten Sie die Authentifizierung erneut.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="392"/>
@@ -1788,7 +1788,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="374"/>
         <source>The audience of the id_token did not contain &quot;%1&quot;</source>
-        <translation>Das Publikum des id_token enthält nicht &quot;%1&quot;.</translation>
+        <translation>Die Zielgruppe des ID-Token enthält nicht &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../src/libsync/creds/oauth.cpp" line="348"/>
@@ -1801,7 +1801,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="154"/>
         <source>Could not download update. Please click &lt;a href=&apos;%1&apos;&gt;here&lt;/a&gt; to download the update manually.</source>
-        <translation>Aktualisierung kann nicht heruntergeladen werden. Bitte klicken Sie &lt;a href=&apos;%1&apos;&gt;hier&lt;/a&gt;, um die Aktualisierung manuell herunterzuladen.</translation>
+        <translation>Die Aktualisierung kann nicht heruntergeladen werden. Bitte klicken Sie &lt;a href=&apos;%1&apos;&gt;hier&lt;/a&gt;, um die Aktualisierung manuell herunterzuladen.</translation>
     </message>
     <message>
         <location filename="../src/gui/updater/ocupdater.cpp" line="156"/>
@@ -1897,7 +1897,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/discovery.cpp" line="219"/>
         <source>File/Folder is ignored because it&apos;s hidden.</source>
-        <translation>Datei/Ordner wird ignoriert, weil es versteckt ist.</translation>
+        <translation>Versteckte Dateien/Ordner werden ignoriert.</translation>
     </message>
     <message>
         <location filename="../src/libsync/discovery.cpp" line="223"/>
@@ -1994,7 +1994,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
         <location filename="../src/libsync/propagatedownload.cpp" line="170"/>
         <location filename="../src/libsync/propagatedownload.cpp" line="666"/>
         <source>The file has changed since discovery</source>
-        <translation>Datei hat sich seit der Entdeckung geändert</translation>
+        <translation>Die Datei wurde seit der Entdeckung geändert</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagatedownload.cpp" line="175"/>
@@ -2059,7 +2059,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="163"/>
         <source>could not delete file »%1«, error: %2</source>
-        <translation>konnte Datei %1 nicht löschen, Fehler: %2</translation>
+        <translation>Datei %1 konnte nicht gelöscht werden, Fehler: %2</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="178"/>
@@ -2069,7 +2069,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="183"/>
         <source>Could not create folder »%1«</source>
-        <translation>Konnte Ordner %1 nicht erstellen</translation>
+        <translation>Ordner %1 konnte nicht erstellt werden</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="196"/>
@@ -2098,12 +2098,12 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="107"/>
         <source>Could not remove »%1« because of a local file name clash with »%2«!</source>
-        <translation>Konnte %1 kann nicht entfernt werden, da der lokale Dateiname mit %2 kollidiert!</translation>
+        <translation>%1 konnte nicht entfernt werden, da der lokale Dateiname mit %2 kollidiert.</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="123"/>
         <source>Could not move »%1« to the trash bin</source>
-        <translation>Konnte %1 nicht in den Mülleimer verschieben</translation>
+        <translation>%1 konnte nicht in den Papierkorb verschoben werden</translation>
     </message>
 </context>
 <context>
@@ -2116,7 +2116,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="240"/>
         <source>Could not rename »%1« to »%2«, the file is currently in use</source>
-        <translation>Konnte %1 nicht in %2 umbenennen, die Datei wird derzeit verwendet</translation>
+        <translation>%1 konnte nicht in %2 umbenannt werden, da die Datei aktuell in Benutzung ist</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagatorjobs.cpp" line="262"/>
@@ -2170,7 +2170,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/propagateremotemove.cpp" line="147"/>
         <source>Error updating metadata: %1</source>
-        <translation>Fehler beim Aktualisiern von Metadaten: %1</translation>
+        <translation>Fehler beim Aktualisieren von Metadaten: %1</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagateremotemove.cpp" line="150"/>
@@ -2206,7 +2206,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/propagateupload.cpp" line="112"/>
         <source>Local file changed during sync. It will be resumed.</source>
-        <translation>Lokale Datei wurde während Synchronisierung geändert. Sie wird fortgesetzt.</translation>
+        <translation>Lokale Datei wurde während der Synchronisierung geändert. Sie wird wiederaufgenommen.</translation>
     </message>
     <message>
         <location filename="../src/libsync/propagateupload.cpp" line="130"/>
@@ -2233,7 +2233,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
         <location filename="../src/libsync/propagateupload.cpp" line="141"/>
         <location filename="../src/libsync/propagateupload.cpp" line="459"/>
         <source>Upload of %1 exceeds the quota for the folder</source>
-        <translation>Der Upload von %1 überschreitet die Quote für den Ordner</translation>
+        <translation>Der Upload von %1 überschreitet die Quota für den Ordner</translation>
     </message>
 </context>
 <context>
@@ -2367,7 +2367,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/protocolwidget.cpp" line="179"/>
         <source>Retry sync</source>
-        <translation>Wiederhole Synchronisierung</translation>
+        <translation>Synchronisierung wiederholen</translation>
     </message>
 </context>
 <context>
@@ -2375,7 +2375,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/selectivesyncwidget.cpp" line="69"/>
         <source>Loading...</source>
-        <translation>Laden …</translation>
+        <translation>Laden…</translation>
     </message>
     <message>
         <location filename="../src/gui/selectivesyncwidget.cpp" line="75"/>
@@ -2414,12 +2414,12 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/settingsdialog.cpp" line="123"/>
         <source>Quit %1</source>
-        <translation>Beenden %1</translation>
+        <translation>%1 beenden</translation>
     </message>
     <message>
         <location filename="../src/gui/settingsdialog.cpp" line="124"/>
         <source>Are you sure you want to quit %1?</source>
-        <translation>Sicher, dass %1 verlassen werden soll?</translation>
+        <translation>Sind Sie sicher, dass %1 beendet werden soll?</translation>
     </message>
     <message>
         <location filename="../src/gui/settingsdialog.cpp" line="149"/>
@@ -2438,7 +2438,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
         <location filename="../src/gui/socketapi/socketapi.cpp" line="505"/>
         <source>Share with %1</source>
         <comment>parameter is OpenCloud</comment>
-        <translation>Teile mit %1</translation>
+        <translation>Mit %1 teilen</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="603"/>
@@ -2483,7 +2483,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
         <location filename="../src/gui/socketapi/socketapi.cpp" line="775"/>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="805"/>
         <source>Share...</source>
-        <translation>Teilen ...</translation>
+        <translation>Teilen...</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="777"/>
@@ -2519,7 +2519,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="907"/>
         <source>Rename...</source>
-        <translation>Umbenennen ...</translation>
+        <translation>Umbenennen...</translation>
     </message>
     <message>
         <location filename="../src/gui/socketapi/socketapi.cpp" line="910"/>
@@ -2564,7 +2564,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
         <location filename="../src/libsync/syncengine.cpp" line="326"/>
         <source>Only %1 are available, need at least %2 to start</source>
         <comment>Placeholders are postfixed with file sizes using Utility::octetsToString()</comment>
-        <translation>Nur %1 ist verfügbar, brauche mindestens %2 um zu starten</translation>
+        <translation>Nur %1 sind verfügbar, mindestens %2 benötigt, um zu starten</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="354"/>
@@ -2579,7 +2579,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="777"/>
         <source>Space quota exceeded. Please contact the Administrator of this space.</source>
-        <translation>Space-Kontingent überschritten. Bitte wende dich an den Administrator dieses Space.</translation>
+        <translation>Space-Quota überschritten. Bitte wenden Sie sich an den für diesen Space zuständigen Administrator.</translation>
     </message>
     <message>
         <location filename="../src/libsync/syncengine.cpp" line="266"/>
@@ -2655,7 +2655,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/systray.cpp" line="146"/>
         <source>Show %1</source>
-        <translation>Zeige %1</translation>
+        <translation>%1 anzeigen</translation>
     </message>
     <message>
         <location filename="../src/gui/systray.cpp" line="149"/>
@@ -2698,7 +2698,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/theme.cpp" line="251"/>
         <source>&lt;p&gt;Version %1. For more information visit &lt;a href=&quot;https://opencloud.eu/&quot;&gt;https://opencloud.eu/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;For known issues and help, please visit: &lt;a href=&quot;https://github.com/opencloud-eu/desktop&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Copyright OpenCloud GmbH&lt;br/&gt;Copyright ownCloud GmbH&lt;/p&gt;&lt;p&gt;Distributed by OpenCloud GmbH and licensed under the GNU General Public License (GPL) Version 2.0.&lt;br/&gt;&lt;p&gt;&lt;small&gt;%2&lt;/small&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Version %1. Für weitere Informationen besuche &lt;a href=&quot;https://opencloud.eu/&quot;&gt;https://opencloud.eu/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Für bekannte Probleme und Hilfe, besuche: &lt;a href=&quot;https://github.com/opencloud-eu/desktop&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Copyright OpenCloud GmbH&lt;br/&gt;Copyright ownCloud GmbH&lt;/p&gt;&lt;p&gt;Vertrieben von OpenCloud GmbH und lizenziert unter der GNU General Public License (GPL) Version 2.0.&lt;br/&gt;&lt;p&gt;&lt;small&gt;%2&lt;/small&gt;&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Version %1. Weitere Informationen finden Sie unter &lt;a href=&quot;https://opencloud.eu/&quot;&gt;https://opencloud.eu/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Für bekannte Probleme und Hilfe besuchen Sie: &lt;a href=&quot;https://github.com/opencloud-eu/desktop&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Copyright OpenCloud GmbH&lt;br/&gt;Copyright ownCloud GmbH&lt;/p&gt;&lt;p&gt;Vertrieben von OpenCloud GmbH und lizenziert unter der GNU General Public License (GPL) Version 2.0.&lt;br/&gt;&lt;p&gt;&lt;small&gt;%2&lt;/small&gt;&lt;/p&gt;</translation>
     </message>
 </context>
 <context>
@@ -2706,7 +2706,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/tlserrordialog.ui" line="14"/>
         <source>TLS Certificate Error</source>
-        <translation>TLS Zertifikatsfehler</translation>
+        <translation>TLS-Zertifikatsfehler</translation>
     </message>
     <message>
         <location filename="../src/gui/tlserrordialog.ui" line="42"/>
@@ -2766,7 +2766,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/updateurldialog.cpp" line="32"/>
         <source>Url update requested for %1</source>
-        <translation>Url-Aktualisierung angefordert für %1</translation>
+        <translation>URL-Aktualisierung angefordert für %1</translation>
     </message>
     <message>
         <location filename="../src/gui/updateurldialog.cpp" line="33"/>
@@ -2795,12 +2795,12 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="196"/>
         <source>Unable to claim the sync root for files on demand</source>
-        <translation type="unfinished"/>
+        <translation>Der Synchronisationspunkt kann für &quot;Dateien bei Bedarf&quot; nicht in Anspruch genommen werden</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="409"/>
         <source>Cannot dehydrate a placeholder because the file changed</source>
-        <translation type="unfinished"/>
+        <translation>Ein Platzhalter kann nicht freigegeben werden, weil die Datei geändert wurde</translation>
     </message>
 </context>
 <context>
@@ -2928,37 +2928,37 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="255"/>
         <source>Failed to read /proc/self/mountinfo</source>
-        <translation type="unfinished"/>
+        <translation>Lesen von /proc/self/mountinfo fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="268"/>
         <source>Failed to unmount the OpenVFS mount %1 Error:%2</source>
-        <translation type="unfinished"/>
+        <translation>Aushängen des OpenVFS-Einhängepunkts %1 fehlgeschlagen. Fehler: %2</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="277"/>
         <source>The filesystem for %1 does not support xattributes.</source>
-        <translation type="unfinished"/>
+        <translation>Das Dateisystem für %1 unterstützt keine xattributes.</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="282"/>
         <source>The sync path is already claimed by a different account, please check your setup</source>
-        <translation type="unfinished"/>
+        <translation>Der Synchronisationspfad wird bereits von einem anderen Konto in Anspruch genommen. Bitte prüfen Sie Ihre Einrichtung.</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="286"/>
         <source>The sync path is claimed by a different cloud, please check your setup</source>
-        <translation type="unfinished"/>
+        <translation>Der Synchronisationspfad wird bereits von einer anderen Cloud in Anspruch genommen. Bitte prüfen Sie Ihre Einrichtung.</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="291"/>
         <source>OpenVFS executable not found, please install it</source>
-        <translation type="unfinished"/>
+        <translation>Die ausführbare Datei von OpenVFS wurde nicht gefunden. Bitte installieren Sie diese.</translation>
     </message>
     <message>
         <location filename="../src/plugins/vfs/xattr/vfs_xattr.cpp" line="297"/>
         <source>Failed to find the OpenVFS config file, please check your installation.</source>
-        <translation type="unfinished"/>
+        <translation>Die Einrichtungsdatei von OpenVFS wurde nicht gefunden. Bitte prüfen Sie Ihre Installation.</translation>
     </message>
 </context>
 <context>
@@ -3005,12 +3005,12 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/common/utility.cpp" line="313"/>
         <source>now</source>
-        <translation>jetzt</translation>
+        <translation>Jetzt</translation>
     </message>
     <message>
         <location filename="../src/libsync/common/utility.cpp" line="315"/>
         <source>less than a minute ago</source>
-        <translation>vor weniger als einer Minute</translation>
+        <translation>Vor weniger als einer Minute</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/libsync/common/utility.cpp" line="319"/>
@@ -3097,7 +3097,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/newwizard/enums.cpp" line="30"/>
         <source>Server URL</source>
-        <translation>Server URL</translation>
+        <translation>Server-URL</translation>
     </message>
     <message>
         <location filename="../src/gui/newwizard/enums.cpp" line="32"/>
@@ -3486,7 +3486,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="76"/>
         <source>ignoring</source>
-        <translation>ignoriere</translation>
+        <translation>ignorieren</translation>
     </message>
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="78"/>
@@ -3496,7 +3496,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/libsync/progressdispatcher.cpp" line="80"/>
         <source>updating local metadata</source>
-        <translation>aktualisiere lokale Metadaten</translation>
+        <translation>lokale Metadaten werden aktualisiert</translation>
     </message>
 </context>
 <context>
@@ -3509,7 +3509,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/guiutility.cpp" line="53"/>
         <source>There was an error when launching the browser to go to URL %1. Maybe no default browser is configured?</source>
-        <translation>Fehler beim Aufrufen der URL %1. Der Browser konnte nicht geladen werden. Ist eventuell kein Standard-Browser konfiguriert? </translation>
+        <translation>Fehler beim Aufrufen der URL %1. Der Browser konnte nicht geladen werden. Ist eventuell kein Standard-Browser eingerichtet? </translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="76"/>
@@ -3519,7 +3519,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/guiutility.cpp" line="77"/>
         <source>There was an error when launching the email client to create a new message. Maybe no default email client is configured?</source>
-        <translation>Fehler beim Aufrufen des Email-Clienten. Ist eventuell kein Standard-Email-Client konfiguriert?</translation>
+        <translation>Fehler beim Aufrufen des Email-Clients. Ist eventuell kein Standard-Email-Client eingerichtet?</translation>
     </message>
     <message>
         <location filename="../src/gui/guiutility.cpp" line="90"/>
@@ -3537,7 +3537,7 @@ Beachten Sie, dass Kommandozeilenoptionen bezüglich der Protokollierung diese E
     <message>
         <location filename="../src/gui/main.cpp" line="173"/>
         <source>Some settings were configured in newer versions of this client and use features that are not available in this version</source>
-        <translation>Einige Einstellungen wurden in einer neueren Version dieses Clienten konfiguriert und nutzen Funktionen, die in dieser Version nicht verfügbar sind.</translation>
+        <translation>Einige Einstellungen wurden in einer neueren Version dieses Clients konfiguriert und nutzen Funktionen, die in dieser Version nicht verfügbar sind.</translation>
     </message>
 </context>
 </TS>

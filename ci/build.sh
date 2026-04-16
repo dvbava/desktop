@@ -6,8 +6,8 @@ echo " OpenCloud AppImage Builder (ARM64 / Qt6)"
 echo "========================="
 
 APP_NAME="OpenCloud"
-ORIG_HOME=$HOME
-WORKDIR="$ORIG_HOME/opencloud/ci"
+
+WORKDIR="$HOME/opencloud/ci"
 SRC_DIR="$WORKDIR/src"
 INSTALL_DIR="$WORKDIR/AppDir/usr"
 APPDIR="$WORKDIR/AppDir"
@@ -16,97 +16,137 @@ JOBS=$(nproc)
 
 mkdir -p "$WORKDIR" "$SRC_DIR" "$INSTALL_DIR" "$OUTPUT"
 
+# -------------------------------
+# Build functions (NO install here)
+# -------------------------------
+
+build_libregraph() {
+  echo "========================="
+  echo " LibreGraph API"
+  echo "========================="
+  cd "$SRC_DIR"
+
+  if [ ! -d libre-graph-api-cpp-qt-client ]; then
+    git clone https://github.com/opencloud-eu/libre-graph-api-cpp-qt-client
+  fi
+
+  cd libre-graph-api-cpp-qt-client
+  rm -rf build
+  mkdir build && cd build
+
+  cmake ../client/ \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR"
+
+  make -j"$JOBS"
+}
+
+build_kdsingle() {
+  echo "========================="
+  echo " KDSingleApplication"
+  echo "========================="
+  cd "$SRC_DIR"
+
+  if [ ! -d KDSingleApplication ]; then
+    git clone https://github.com/KDAB/KDSingleApplication.git
+  fi
+
+  cd KDSingleApplication
+  rm -rf build
+  mkdir build && cd build
+
+  cmake .. \
+    -DBUILD_WITH_QT6=ON \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR"
+
+  make -j"$JOBS"
+}
+
+build_qtkeychain() {
+  echo "========================="
+  echo " QtKeychain"
+  echo "========================="
+  cd "$SRC_DIR"
+
+  if [ ! -d qtkeychain ]; then
+    git clone https://github.com/frankosterfeld/qtkeychain.git
+  fi
+
+  cd qtkeychain
+  rm -rf build
+  mkdir build && cd build
+
+  cmake .. \
+    -DBUILD_WITH_QT6=ON \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR"
+
+  make -j"$JOBS"
+}
+
+build_openvfs() {
+  echo "========================="
+  echo " OpenVFS (IMPORTANT FIX)"
+  echo "========================="
+  cd "$SRC_DIR"
+
+  if [ ! -d openvfs ]; then
+    git clone https://github.com/opencloud-eu/openvfs.git
+  fi
+
+  cd openvfs
+  rm -rf build
+  mkdir build && cd build
+
+  cmake .. \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR" \
+    -DCMAKE_INSTALL_RPATH="\$ORIGIN/../lib" \
+    -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON
+
+  make -j"$JOBS"
+}
+
+# -------------------------------
+# Run builds in parallel
+# -------------------------------
+build_libregraph &
+build_kdsingle &
+build_qtkeychain &
+build_openvfs &
+
+wait
+
+# -------------------------------
+# Install sequentially (SAFE)
+# -------------------------------
 echo "========================="
-echo " LibreGraph API"
+echo " Installing dependencies"
 echo "========================="
-cd "$SRC_DIR"
 
-if [ ! -d libre-graph-api-cpp-qt-client ]; then
-  git clone https://github.com/opencloud-eu/libre-graph-api-cpp-qt-client
-fi
+for proj in \
+  libre-graph-api-cpp-qt-client \
+  KDSingleApplication \
+  qtkeychain \
+  openvfs
+do
+  echo "---- Installing $proj ----"
+  cd "$SRC_DIR/$proj/build"
+  make install
+done
 
-cd libre-graph-api-cpp-qt-client
-rm -rf build
-mkdir build && cd build
-
-cmake ../client/ \
-  -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR"
-
-make -j"$JOBS"
-make install
-
-echo "========================="
-echo " KDSingleApplication"
-echo "========================="
-cd "$SRC_DIR"
-
-if [ ! -d KDSingleApplication ]; then
-  git clone https://github.com/KDAB/KDSingleApplication.git
-fi
-
-cd KDSingleApplication
-rm -rf build
-mkdir build && cd build
-
-cmake .. \
-  -DBUILD_WITH_QT6=ON \
-  -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR"
-
-make -j"$JOBS"
-make install
-
-echo "========================="
-echo "  QtKeychain"
-echo "========================="
-cd "$SRC_DIR"
-
-if [ ! -d qtkeychain ]; then
-  git clone https://github.com/frankosterfeld/qtkeychain.git
-fi
-
-cd qtkeychain
-rm -rf build
-mkdir build && cd build
-
-cmake .. \
-  -DBUILD_WITH_QT6=ON \
-  -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR"
-
-make -j"$JOBS"
-make install
-
-echo "========================="
-echo " OpenVFS (IMPORTANT FIX)"
-echo "========================="
-cd "$SRC_DIR"
-
-if [ ! -d openvfs ]; then
-  git clone https://github.com/opencloud-eu/openvfs.git
-fi
-
-cd openvfs
-rm -rf build
-mkdir build && cd build
-
-cmake .. \
-  -DCMAKE_BUILD_TYPE=Release \
-  -DCMAKE_INSTALL_PREFIX="$INSTALL_DIR" \
-  -DCMAKE_INSTALL_RPATH="\$ORIGIN/../lib" \
-  -DCMAKE_BUILD_WITH_INSTALL_RPATH=ON
-
-make -j"$JOBS"
-make install
-
+# -------------------------------
+# OpenCloud Desktop
+# -------------------------------
 echo "========================="
 echo " OpenCloud Desktop"
 echo "========================="
+
 cd "$SRC_DIR"
 
 if [ ! -d desktop ]; then
-  git clone https://github.com/opencloud-eu/desktop.git
+  git clone https://github.com/dvbava/desktop.git
 fi
 
 cd desktop
@@ -123,18 +163,14 @@ cmake .. \
 cmake --build . -j"$JOBS"
 cmake --install .
 
+# -------------------------------
+# AppDir setup
+# -------------------------------
 echo "========================="
 echo " AppDir"
 echo "========================="
+
 mkdir -p "$APPDIR"
-
-if [ -f "$SRC_DIR/desktop/resources/opencloud.desktop" ]; then
-  cp "$SRC_DIR/desktop/resources/opencloud.desktop" "$APPDIR/"
-fi
-
-if [ -f "$SRC_DIR/desktop/resources/opencloud.png" ]; then
-  cp "$SRC_DIR/desktop/resources/opencloud.png" "$APPDIR/"
-fi
 
 cat > "$APPDIR/AppRun" << 'EOF'
 #!/usr/bin/env bash
@@ -149,9 +185,13 @@ EOF
 
 chmod +x "$APPDIR/AppRun"
 
+# -------------------------------
+# linuxdeploy
+# -------------------------------
 echo "========================="
-echo " OpenCloud AppImage Builder (ARM64 / Qt6)"
+echo " AppImage Build"
 echo "========================="
+
 cd "$WORKDIR"
 
 if [ ! -f linuxdeploy ]; then
